@@ -1,0 +1,38 @@
+***IMP***
+There are 2 branches:
+1. master - On Heroku
+2. codeBranch - On GitHub
+Commands:
+git branch
+git checkout -b <branchname>
+git push -u origin master - for HEROKU
+git push -u origin codeBranch - for GITHUB
+******
+
+Run:
+    1) virtualenv howsthat 
+    2) .\howsthat\Scripts\activate.ps1 
+    3) pip freeze > requirements.txt
+
+Install packages from requirement.txt
+
+heroku login
+
+pip install gunicorn
+pip freeze requirements.txt
+Procfile
+web:gunicorn app:app
+
+git init
+git add .
+git commit -m "Initial commmit"
+
+heroku create todo-codewithharry
+git remote -v
+git push heroku master
+
+heroku run bash
+python clock.py
+exit
+
+python -m json.tool my_json.json

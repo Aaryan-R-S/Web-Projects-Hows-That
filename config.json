@@ -1,0 +1,23 @@
+[
+    {
+        "url":"https://www.cricbuzz.com/live-cricket-scores/35612/1st-match-indian-premier-league-2021"
+    },
+    {
+        "urlapi":"https://cricapi.com/api/fantasySummary?unique_id=1254058&apikey={your-api-key}"
+    },
+    {
+        "n1":146
+    },
+    {
+        "n2":147
+    },
+    {
+        "t":5
+    },
+    {
+        "runnings":false
+    },
+    {
+        "urlapi1":"https://cricapi.com/api/fantasySummary?unique_id=1254058&apikey={your-second-api-key-optional}"
+    }
+]
